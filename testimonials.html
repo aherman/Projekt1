@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Website Tutorial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bubble.css">
+  <style>
+  .container-custom{
+    margin: 3% 5%;
+  }
+  .cimg{
+    min-width:100px;
+    margin: 5% auto;
+  }
+@media(max-width:991px){
+  .cimg{
+    max-width:100px;
+    min-width:20px;
+  }
+}
+@media(max-width:330px){
+  .cimg{
+    max-width:80px;
+  }
+}
+@media(max-width:240px){
+  .cimg{
+    max-width:65px;
+  }
+}
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"
+      data-target="#myNavbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#"><img src="img/w3newbie.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li class="active"><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-custom">
+
+
+<h2>Our clients are our biggest supporters. Would you like to know what our clients
+think about us? Take a look for yourself in the testimonials below.</h2>
+
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="talk-bubble tri-right border round btm-left-in">
+          <div class="talktext">
+            <p>It has saved me so much time and allows me to see an accurate picture of my business instantly</p>
+          </div>
+      </div>
+      </div>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-xs-4">
+            <img src="img/bill.jpg" class="img-responsive img-circle cimg">
+          </div>
+          <div class="col-xs-8">
+            <h3 style="font-style:bold;"><a href="https://www.gatesnotes.com">-- Bill Gates</a></h3>
+            <p style="font-style:italic;">Developer at <a href="https://www.microsoft.com">Microsoft</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="col-md-4">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="talk-bubble tri-right border round btm-left-in">
+        <div class="talktext">
+          <p>Decision to become partner with you has been a brilliant move. We now have all the tools we need.</p>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-xs-4">
+          <img src="img/linus.jpg" class="img-responsive img-circle cimg">
+        </div>
+        <div class="col-xs-8">
+          <h3 style="font-style:bold;"><a href="https://cs.helsinki.fi/u/torvalds/">-- Linus Torvalds</a></h3>
+          <p style="font-style:italic;">Founder of <a href="https://www.linux.org">Linux</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="talk-bubble tri-right border round btm-left-in">
+        <div class="talktext">
+          <p>Balanced between the ease of use and power features to hire effectively, it provides a great experience.</p>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-xs-4">
+          <img src="img/stallman.jpg" class="img-responsive img-circle cimg">
+        </div>
+        <div class="col-xs-8">
+          <h3 style="font-style:bold;"><a href="https://stallman.org">-- Richard Stallman</a></h3>
+          <p style="font-style:italic;">Father of <a href="https://www.gnu.org">GNU</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div> <!--- End of the row --->
+
+
+</div><!--- End of container--->
+
+<footer class="container-footer text-center">
+<div class="row">
+  <div class="col-sm-4">
+    <h3>Contact Us</h3>
+    <br>
+    <h4><a class="mail" href="mailto:joe@example.com?subject=feedback">w3corporation@outlook.com</a></h4>
+  </div>
+  <div class="col-sm-4">
+    <h3>Connect</h3>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-youtube"></a>
+  </div>
+  <div class="col-sm-4">
+    <img src="img/bunny.png" class="icon">
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p class="myMark">Developed by Aleksandar Herman © <script>document.write(new Date().getFullYear())</script></p>
+  </div>
+</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

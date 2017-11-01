@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Website Tutorial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+  .container-custom{
+    margin:5% 1%;
+  }
+  .container-down{
+    margin:10% 2%;
+    text-align: center;
+  }
+  .mini{
+    margin: 0 auto;
+  }
+  .bl{
+    color:purple;
+  }
+  @media (max-width:500px){
+    .container-down{
+      display:none;
+    }
+    .container-custom{
+      text-align: center;
+    }
+  }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"
+      data-target="#myNavbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#"><img src="img/w3newbie.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+<h1 style="text-align:center; margin-top:15px;">Contact</h1>
+<br>
+<hr style="border-top: solid 1px;">
+<h2 style="text-align:center;">We would love to help!</h2>
+<h4 style="text-align:center; margin-top:2%;">We like to create things with fun and open-minded people. Feel free to say hello!</h4>
+
+<div class="row">
+  <div class="col-md-6">
+    <form>
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control" id="name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="exampleTextarea">Message:</label>
+    <textarea class="form-control" id="exampleTextarea" rows="6"></textarea>
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Subscribe to email newsletter!</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+  </div>
+
+  <div class="col-md-6">
+   <div class="container-custom">
+    <div class="row">
+      <div class="col-sm-2">
+        <span class="glyphicon glyphicon-map-marker"></span>
+      </div>
+      <div class="col-sm-10">
+        <p style="font-style:bold;">Scavenger's Road 66</p>
+        <p>North Hills, Azeroth</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <span class="glyphicon glyphicon-earphone"></span>
+      </div>
+      <div class="col-sm-10">
+        <p>(007)456-2845</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <span class="glyphicon glyphicon-envelope"></span>
+      </div>
+      <div class="col-sm-10">
+        <p>joe@example.com</p>
+      </div>
+    </div>
+    <br>
+    <hr style="border-top:dotted 1px;">
+    <div class="container-down">
+    <a href="#" class="fa fa-facebook bl"></a>
+    <a href="#" class="fa fa-twitter bl"></a>
+    <a href="#" class="fa fa-google bl"></a>
+    <a href="#" class="fa fa-linkedin bl"></a>
+    <a href="#" class="fa fa-youtube bl"></a>
+    <p>Follow us on social media. Stay tuned!</p>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+
+<footer class="container-footer text-center">
+<div class="row">
+  <div class="col-sm-4">
+    <h3>Contact Us</h3>
+    <br>
+    <h4><a class="mail" href="mailto:joe@example.com?subject=feedback">w3corporation@outlook.com</a></h4>
+  </div>
+  <div class="col-sm-4">
+    <h3>Connect</h3>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-youtube"></a>
+  </div>
+  <div class="col-sm-4">
+    <img src="img/bunny.png" class="icon">
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p class="myMark">Developed by Aleksandar Herman © <script>document.write(new Date().getFullYear())</script></p>
+  </div>
+</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

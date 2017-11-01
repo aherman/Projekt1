@@ -60,16 +60,24 @@ footer{
 }
 .mail{
   padding: 1%;
-  color:skyblue;
+  color:white;
 }
 .mail:link, .mail:visited{
-  color:skyblue;
+  color:white;
+  text-decoration: none;
 }
 .mail:hover{
   color:#FFF;
 }
 .mail:active{
-  color:skyblue;
+  color:white;
+}
+.myMark{
+  color:lightgrey;
+  font-size:10px;
+}
+.container-footer{
+  padding-bottom:1%;
 }
 @media (max-width: 900px){
   .fa{
